@@ -1,10 +1,10 @@
-import React from 'react';
 import { DocsThemeConfig } from 'nextra-theme-docs';
+import React from 'react';
 
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <svg
+      {/* <svg
         width="24"
         height="22"
         viewBox="0 0 72 66"
@@ -19,36 +19,35 @@ const config: DocsThemeConfig = {
           d="M44.1545 65.8455H17.076C15.6992 65.8455 14.432 65.1171 13.7436 63.9198L0.204346 40.4731L6.85923 36.6318L19.291 58.1529H41.9296L53.2439 38.5475L40.8121 17.0263L47.467 13.1851L61.0063 36.6318C61.6947 37.8191 61.6947 39.2858 61.0063 40.4731L47.467 63.9198C46.7786 65.1071 45.5115 65.8455 44.1346 65.8455H44.1545Z"
           fill="#05D2DD"
         />
-      </svg>
+      </svg> */}
 
-      <span style={{ marginLeft: '.4em', fontWeight: 800 }}>Cosmostation</span>
+      <span style={{ marginLeft: '.4em', fontWeight: 800 }}>Mintscan Docs</span>
     </>
   ),
   project: {
-    link: 'https://github.com/cosmostation',
+    link: 'https://github.com/CosmosLabsKR',
   },
-  docsRepositoryBase: 'https://github.com/cosmostation/cosmostation-docs/blob/master',
+  docsRepositoryBase: 'https://github.com/CosmosLabsKR/mintscan-docs/blob/master',
   head: (
     <>
       <meta
         name="description"
-        content="Official documentation for Cosmostation products and infrastructure"
+        content="Official documentation for Mintscan products and infrastructure"
       />
       <meta
         property="og:description"
-        content="Official documentation for Cosmostation products and infrastructure"
+        content="Official documentation for Mintscan products and infrastructure"
       />
-      <meta name="apple-mobile-web-app-title" content="Cosmostation" />
-      <meta name="twitter:site" content="@CosmostationVD" />
+      <meta name="apple-mobile-web-app-title" content="Mintscan" />
     </>
   ),
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Cosmostation Docs',
-      description: 'Official documentation for Cosmostation products and infrastructure',
+      titleTemplate: '%s – Mintscan Docs',
+      description: 'Official documentation for Mintscan products and infrastructure',
       openGraph: {
-        title: 'Cosmostation Docs',
-        description: 'Official documentation for Cosmostation products and infrastructure',
+        title: 'Mintscan Docs',
+        description: 'Official documentation for Mintscan products and infrastructure',
       },
     };
   },
