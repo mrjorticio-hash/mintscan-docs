@@ -1,7 +1,7 @@
 {
-  "name": "cosmostation-docs",
+  "name": "mintscan-docs",
   "version": "0.9.0",
-  "description": "Cosmostation Documentation",
+  "description": "Mintscan Documentation",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
@@ -17,9 +17,9 @@
   "author": "soaryong <soaryong@stamper.netowrk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cosmostation/cosmostation-docs/issues"
+    "url": "https://github.com/CosmosLabsKR/mintscan-docs/issues"
   },
-  "homepage": "https://github.com/cosmostation/cosmostation-docs#readme",
+  "homepage": "https://github.com/CosmosLabsKR/mintscan-docs#readme",
   "dependencies": {
     "@codemirror/lang-json": "^6.0.1",
     "@cosmostation/extension": "^0.0.13",
