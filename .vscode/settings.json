@@ -1,4 +1,4 @@
-{
+w{
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
@@ -27,4 +27,4 @@
     "**/out": true,
     "**/yarn.lock": true
   }
-}
+
